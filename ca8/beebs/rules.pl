@@ -1,0 +1,264 @@
+badFlag('2dfir','-ftree-vectorize').
+badFlag('2dfir','-ftree-vectorize').
+badFlag('aha-compress','-fschedule-insns').
+badFlag('aha-compress','-fschedule-insns').
+badFlag(A,'-ftree-loop-if-convert').
+badFlag('aha-compress','-ftree-ter').
+badFlag('aha-compress','-ftree-ter').
+badFlag(bs,'-fcse-follow-jumps').
+badFlag(bs,'-fcse-follow-jumps').
+badFlag(bs,'-fsched-interblock').
+badFlag(bs,'-fsched-interblock').
+badFlag(bubblesort,'-foptimize-sibling-calls').
+badFlag(bubblesort,'-foptimize-sibling-calls').
+badFlag(bubblesort,'-fselective-scheduling2').
+badFlag(bubblesort,'-fselective-scheduling2').
+badFlag(A,'-fcommon') :-
+   stmt_code(A,B,C,gimple_label).
+badFlag(compress,'-fdata-sections').
+badFlag(compress,'-fdata-sections').
+badFlag(cover,'-freorder-blocks').
+badFlag(cover,'-freorder-blocks').
+badFlag('ctl-stack','-fschedule-insns').
+badFlag('ctl-stack','-fschedule-insns').
+badFlag('ctl-stack','-fselective-scheduling').
+badFlag('ctl-stack','-fselective-scheduling').
+badFlag('ctl-string','-fivopts').
+badFlag('ctl-string','-fivopts').
+badFlag(A,'-fsel-sched-pipelining') :-
+   edge_flag(A,B,C,dfs_back), stmt_code(A,B,D,gimple_call).
+badFlag('ctl-vector','-fif-conversion2').
+badFlag('ctl-vector','-fif-conversion2').
+badFlag('ctl-vector','-fsched-interblock').
+badFlag('ctl-vector','-fsched-interblock').
+badFlag('ctl-vector','-ftree-vectorize').
+badFlag('ctl-vector','-ftree-vectorize').
+badFlag(dhrystone,'-fcprop-registers').
+badFlag(dhrystone,'-fcprop-registers').
+badFlag(dhrystone,'-fcse-follow-jumps').
+badFlag(dhrystone,'-fcse-follow-jumps').
+badFlag(dhrystone,'-fdce').
+badFlag(dhrystone,'-fdce').
+badFlag(dhrystone,'-fexpensive-optimizations').
+badFlag(dhrystone,'-fexpensive-optimizations').
+badFlag(dhrystone,'-fforward-propagate').
+badFlag(dhrystone,'-fforward-propagate').
+badFlag(dhrystone,'-fgcse').
+badFlag(dhrystone,'-fgcse').
+badFlag(dhrystone,'-fgcse-sm').
+badFlag(dhrystone,'-fgcse-sm').
+badFlag(dhrystone,'-fguess-branch-probability').
+badFlag(dhrystone,'-fguess-branch-probability').
+badFlag(dhrystone,'-finline-functions').
+badFlag(dhrystone,'-finline-functions').
+badFlag(A,'-fmerge-constants') :-
+   stmt_code(A,B,C,gimple_call).
+badFlag(dhrystone,'-fomit-frame-pointer').
+badFlag(dhrystone,'-fomit-frame-pointer').
+badFlag(dhrystone,'-foptimize-sibling-calls').
+badFlag(dhrystone,'-foptimize-sibling-calls').
+badFlag(dhrystone,'-fpeephole2').
+badFlag(dhrystone,'-fpeephole2').
+badFlag(A,'-freorder-functions') :-
+   edge_flag(A,B,C,fallthru).
+badFlag(dhrystone,'-frerun-cse-after-loop').
+badFlag(dhrystone,'-frerun-cse-after-loop').
+badFlag(A,'-fsched-critical-path-heuristic') :-
+   stmt_code(A,B,C,gimple_call).
+badFlag(A,'-fsched-dep-count-heuristic').
+badFlag(A,'-fsched-last-insn-heuristic').
+badFlag(A,'-fsched-stalled-insns') :-
+   stmt_code(A,B,C,gimple_call).
+badFlag(dhrystone,'-fschedule-insns2').
+badFlag(dhrystone,'-fschedule-insns2').
+badFlag(dhrystone,'-fsection-anchors').
+badFlag(dhrystone,'-fsection-anchors').
+badFlag(dhrystone,'-fsplit-ivs-in-unroller').
+badFlag(dhrystone,'-fsplit-ivs-in-unroller').
+badFlag(dhrystone,'-fstrict-aliasing').
+badFlag(dhrystone,'-fstrict-aliasing').
+badFlag(dhrystone,'-ftoplevel-reorder').
+badFlag(dhrystone,'-ftoplevel-reorder').
+badFlag(dhrystone,'-ftree-ch').
+badFlag(dhrystone,'-ftree-ch').
+badFlag(dhrystone,'-ftree-copy-prop').
+badFlag(dhrystone,'-ftree-copy-prop').
+badFlag(A,'-ftree-cselim').
+badFlag(dhrystone,'-ftree-dce').
+badFlag(dhrystone,'-ftree-dce').
+badFlag(dhrystone,'-ftree-dominator-opts').
+badFlag(dhrystone,'-ftree-dominator-opts').
+badFlag(dhrystone,'-ftree-forwprop').
+badFlag(dhrystone,'-ftree-forwprop').
+badFlag(dhrystone,'-ftree-loop-im').
+badFlag(dhrystone,'-ftree-loop-im').
+badFlag(dhrystone,'-ftree-loop-ivcanon').
+badFlag(dhrystone,'-ftree-loop-ivcanon').
+badFlag(dhrystone,'-ftree-loop-optimize').
+badFlag(dhrystone,'-ftree-loop-optimize').
+badFlag(dhrystone,'-ftree-pre').
+badFlag(dhrystone,'-ftree-pre').
+badFlag(A,'-ftree-slsr') :-
+   stmt_code(A,B,C,gimple_call).
+badFlag(dhrystone,'-ftree-ter').
+badFlag(dhrystone,'-ftree-ter').
+badFlag(dhrystone,'-ftree-vectorize').
+badFlag(dhrystone,'-ftree-vectorize').
+badFlag(dhrystone,'-ftree-vrp').
+badFlag(dhrystone,'-ftree-vrp').
+badFlag(dhrystone,'-funswitch-loops').
+badFlag(dhrystone,'-funswitch-loops').
+badFlag(dhrystone,'-fvect-cost-model').
+badFlag(dhrystone,'-fvect-cost-model').
+badFlag(dhrystone,'-fweb').
+badFlag(dhrystone,'-fweb').
+badFlag(A,'-fcse-follow-jumps') :-
+   edge_flag(A,B,C,irreducible).
+badFlag(A,'-fprefetch-loop-arrays') :-
+   edge_flag(A,B,C,irreducible).
+badFlag(A,'-fsplit-ivs-in-unroller') :-
+   edge_flag(A,B,C,irreducible).
+badFlag(dtoa,'-ftree-copyrename').
+badFlag(dtoa,'-ftree-copyrename').
+badFlag(A,'-ftree-dce') :-
+   edge_flag(A,B,C,irreducible).
+badFlag(A,'-ftree-forwprop') :-
+   edge_flag(A,B,C,irreducible).
+badFlag(duff,'-fcommon').
+badFlag(duff,'-fcommon').
+badFlag(duff,'-fschedule-insns').
+badFlag(duff,'-fschedule-insns').
+badFlag(duff,'-ftree-ter').
+badFlag(duff,'-ftree-ter').
+badFlag(edn,'-fschedule-insns').
+badFlag(edn,'-fschedule-insns').
+badFlag(fac,'-fmove-loop-invariants').
+badFlag(fac,'-fmove-loop-invariants').
+badFlag(fac,'-freorder-blocks').
+badFlag(fac,'-freorder-blocks').
+badFlag(fasta,'-fgcse').
+badFlag(fasta,'-fgcse').
+badFlag(fdct,'-fschedule-insns').
+badFlag(fdct,'-fschedule-insns').
+badFlag(fdct,'-ftree-ter').
+badFlag(fdct,'-ftree-ter').
+badFlag(fibcall,'-freorder-blocks').
+badFlag(fibcall,'-freorder-blocks').
+badFlag(fibcall,'-fsched-interblock').
+badFlag(fibcall,'-fsched-interblock').
+badFlag(fir,'-ftree-loop-optimize').
+badFlag(fir,'-ftree-loop-optimize').
+badFlag(A,'-fsel-sched-pipelining-outer-loops').
+badFlag(insertsort,'-fgcse-sm').
+badFlag(insertsort,'-fgcse-sm').
+badFlag(A,'-fsel-sched-pipelining') :-
+   edge_flag(A,B,C,dfs_back), bb_stmt_n(A,B,D,E,F), stmt_code(A,B,F,gimple_cond).
+badFlag(janne_complex,'-freorder-blocks').
+badFlag(janne_complex,'-freorder-blocks').
+badFlag(janne_complex,'-fschedule-insns').
+badFlag(janne_complex,'-fschedule-insns').
+badFlag(janne_complex,'-ftree-ch').
+badFlag(janne_complex,'-ftree-ch').
+badFlag(lcdnum,'-fif-conversion2').
+badFlag(lcdnum,'-fif-conversion2').
+badFlag(A,'-ftree-forwprop') :-
+   edge_flag(A,B,C,dfs_back), bb_stmt_f(A,B,D,E), stmt_code(A,B,F,gimple_call), stmt_code(A,B,G,gimple_assign), 
+   stmt_code(A,B,H,gimple_assign), stmt_code(A,B,E,gimple_cond).
+badFlag(ludcmp,'-ftoplevel-reorder').
+badFlag(ludcmp,'-ftoplevel-reorder').
+badFlag(ludcmp,'-ftree-ch').
+badFlag(ludcmp,'-ftree-ch').
+badFlag('matmult-float','-ftree-loop-optimize').
+badFlag('matmult-float','-ftree-loop-optimize').
+badFlag('matmult-int','-fschedule-insns').
+badFlag('matmult-int','-fschedule-insns').
+badFlag(mergesort,'-fschedule-insns').
+badFlag(mergesort,'-fschedule-insns').
+badFlag(miniz,'-fsched-interblock').
+badFlag(miniz,'-fsched-interblock').
+badFlag(miniz,'-funroll-all-loops').
+badFlag(miniz,'-funroll-all-loops').
+badFlag(minver,'-fguess-branch-probability').
+badFlag(minver,'-fguess-branch-probability').
+badFlag(ndes,'-ftree-copyrename').
+badFlag(ndes,'-ftree-copyrename').
+badFlag('nettle-cast128','-fdata-sections').
+badFlag('nettle-cast128','-fdata-sections').
+badFlag('nettle-md5','-fdse').
+badFlag('nettle-md5','-fdse').
+badFlag('newlib-mod','-fdata-sections').
+badFlag('newlib-mod','-fdata-sections').
+badFlag('newlib-mod','-fif-conversion2').
+badFlag('newlib-mod','-fif-conversion2').
+badFlag('newlib-mod','-fschedule-insns').
+badFlag('newlib-mod','-fschedule-insns').
+badFlag('newlib-mod','-fselective-scheduling2').
+badFlag('newlib-mod','-fselective-scheduling2').
+badFlag('newlib-mod','-ftree-copy-prop').
+badFlag('newlib-mod','-ftree-copy-prop').
+badFlag('newlib-sqrt','-fdata-sections').
+badFlag('newlib-sqrt','-fdata-sections').
+badFlag('newlib-sqrt','-fselective-scheduling').
+badFlag('newlib-sqrt','-fselective-scheduling').
+badFlag(nsichneu,'-fguess-branch-probability').
+badFlag(nsichneu,'-fguess-branch-probability').
+badFlag(picojpeg,'-fsched-interblock').
+badFlag(picojpeg,'-fsched-interblock').
+badFlag(qrduino,'-fsched-interblock').
+badFlag(qrduino,'-fsched-interblock').
+badFlag(qsort,'-fschedule-insns').
+badFlag(qsort,'-fschedule-insns').
+badFlag(A,'-fipa-pure-const').
+badFlag(select,'-fselective-scheduling').
+badFlag(select,'-fselective-scheduling').
+badFlag(select,'-ftree-copyrename').
+badFlag(select,'-ftree-copyrename').
+badFlag('sglib-arrayheapsort','-ftree-partial-pre').
+badFlag('sglib-arrayheapsort','-ftree-partial-pre').
+badFlag('sglib-arrayquicksort','-fselective-scheduling').
+badFlag('sglib-arrayquicksort','-fselective-scheduling').
+badFlag('sglib-arrayquicksort','-fselective-scheduling2').
+badFlag('sglib-arrayquicksort','-fselective-scheduling2').
+badFlag('sglib-arrayquicksort','-ftree-vrp').
+badFlag('sglib-arrayquicksort','-ftree-vrp').
+badFlag('sglib-dllist','-fsched-interblock').
+badFlag('sglib-dllist','-fsched-interblock').
+badFlag('sglib-listsort','-fsched-interblock').
+badFlag('sglib-listsort','-fsched-interblock').
+badFlag('sglib-queue','-fsched-interblock').
+badFlag('sglib-queue','-fsched-interblock').
+badFlag('sglib-queue','-fschedule-insns2').
+badFlag('sglib-queue','-fschedule-insns2').
+badFlag('sglib-rbtree','-fif-conversion2').
+badFlag('sglib-rbtree','-fif-conversion2').
+badFlag('sglib-rbtree','-fsched-interblock').
+badFlag('sglib-rbtree','-fsched-interblock').
+badFlag(A,'-fconserve-stack').
+badFlag(sha,'-ftree-vectorize').
+badFlag(sha,'-ftree-vectorize').
+badFlag(sqrt,'-finline').
+badFlag(sqrt,'-finline').
+badFlag(statemate,'-fgcse').
+badFlag(statemate,'-fgcse').
+badFlag(statemate,'-fschedule-insns').
+badFlag(statemate,'-fschedule-insns').
+badFlag(A,'-ftree-loop-distribute-patterns') :-
+   stmt_code(A,B,C,gimple_switch).
+badFlag(statemate,'-ftree-pre').
+badFlag(statemate,'-ftree-pre').
+badFlag(stb_perlin,'-ftree-pre').
+badFlag(stb_perlin,'-ftree-pre').
+badFlag(stringsearch1,'-frename-registers').
+badFlag(stringsearch1,'-frename-registers').
+badFlag(stringsearch1,'-ftree-ter').
+badFlag(stringsearch1,'-ftree-ter').
+badFlag(stringsearch1,'-ftree-vectorize').
+badFlag(stringsearch1,'-ftree-vectorize').
+badFlag(tarai,'-fguess-branch-probability').
+badFlag(tarai,'-fguess-branch-probability').
+badFlag(tarai,'-fif-conversion2').
+badFlag(tarai,'-fif-conversion2').
+badFlag('trio-snprintf','-fschedule-insns').
+badFlag('trio-snprintf','-fschedule-insns').
+badFlag(ud,'-fguess-branch-probability').
+badFlag(ud,'-fguess-branch-probability').
